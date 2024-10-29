@@ -1,0 +1,58 @@
+.song-card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #1a1a1a;
+    padding: 15px;
+    margin: 8px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    color: white;
+    font-family: 'Arial', sans-serif;
+    transition: background-color 0.3s;
+}
+
+.song-card:hover {
+    background-color: #292929;
+}
+
+.song-card img {
+    width: 55px;
+    height: 55px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-right: 15px;
+}
+
+.song-content {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: space-between;
+}
+
+.song-content p {
+    margin: 2px 0;
+    font-size: 0.9rem;
+}
+
+.song-content p strong {
+    font-size: 1rem;
+}
+
+.song-extra-info {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+
+.song-extra-info p {
+    font-size: 0.8rem;
+    color: #aaa;
+}
+
+.song-duration {
+    font-size: 0.8rem;
+    color: #aaa;
+    text-align: right;
+}
